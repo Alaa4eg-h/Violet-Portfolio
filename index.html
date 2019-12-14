@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content class="portfolio__single--img"="ie=edge">
     <title>Voilet - Portfolio Website template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -63,18 +64,187 @@
                         doloribus. Eaque voluptate porro, ad, dolorem perspiciatis sequi repellendus voluptates fuga
                         odio
                         cupiditate cum? Maiores, culpa sed.</p>
-                    <div class="about__pos pos--left">
-                        <p class="about__name"><strong>Name:</strong>Jonny D. Dorsch</p>
-                        <p class="about__age"><strong>Age:</strong>37</p>
+                    <div class="about__pos">
+                        <div class="about__pos--data pos--left">
+                            <p class="about__name pos--data m-b-small"><strong>Name: </strong>Jonny D. Dorsch</p>
+                            <p class="about__age pos--data"><strong>Age: </strong>37</p>
+                        </div>
+                        <div class="about__pos--data pos--right">
+                            <p class="about__job-title pos--data m-b-small"><strong>Job title: </strong>ui/ux designer
+                            </p>
+                            <p class="about__location pos--data"><strong>Location: </strong>California,USA</p>
+                        </div>
                     </div>
-                    <div class="about__pos pos--right">
-                        <p class="about__job-title"><strong>Job title:</strong>ui/ux designer</p>
-                        <p class="about__location"><strong>Location:</strong>California,USA</p>
+                    <div class="about__cta">
+                        <a href="#" class="btn about__cta--btn btn--purple">Download cv</a>
+                        <a href="#" class="btn about__cta--btn btn--purple">Hire me</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- Start Skills  -->
+    <section class="skills padding-t-b">
+        <div class="container">
+            <div class="skills__heading section--heading">
+                <h2 class="skills__title section--title title--bg-dark">My skill</h2>
+                <p class="skills__subtitle section--subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    seddo,eiusmod tempor incididunt ut labore et dolore magnaaliqua.</p>
+            </div>
+            <div class="skills__items">
+                <div class="skills__item">
+                    <img src="img/adobe-photoshop.png" alt="Photoshop Skills">
+                    <h3 class="skills__item--title">Adobe Photoshop</h3>
+                    <div class="skills__item--progress">
+                        <span class="progress__value progress--blue"></span>
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <img src="img/adobe-illustrator.png" alt="Illestrator Skills">
+                    <h3 class="skills__item--title">Adobe Illestrator</h3>
+                    <div class="skills__item--progress">
+                        <span class="progress__value progress--orange"></span>
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <img src="img/adobe-after-effects.png" alt="after effect Skills">
+                    <h3 class="skills__item--title">Adobe after effect</h3>
+                    <div class="skills__item--progress">
+                        <span class="progress__value progress--purple"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Skills  -->
+    <!-- Start Services  -->
+    <section class="services padding-t-b">
+        <div class="container">
+            <div class="services__heading section--heading">
+                <h2 class="services__title section--title title--bg-light">My services</h2>
+                <p class="services__subtitle section--subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit,seddo,eiusmod tempor incididunt ut labore et dolore magnaaliqua.</p>
+            </div>
+            <div class="service__items">
+                <div class="service__card">
+                    <img class="service__card--img" src="img/logo-design.png" alt="Logo service">
+                    <h3 class="service__card--title">Logo design</h3>
+                    <p class="service__card--desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ducimus enim eum dignissimos
+                    </p>
+                </div>
+                <div class="service__card">
+                    <img class="service__card--img" src="img/website-design.png" alt="Website design service">
+                    <h3 class="service__card--title">Website design</h3>
+                    <p class="service__card--desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ducimus enim eum dignissimos
+                    </p>
+                </div>
+                <div class="service__card">
+                    <img class="service__card--img" src="img/support.png" alt="Support service">
+                    <h3 class="service__card--title">Support</h3>
+                    <p class="service__card--desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ducimus enim eum dignissimos
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- E class="portfolio__single--img"nd Services -->
+
+    <!-- Start Portfolio -->
+    <section class="portfolio padding-t-b">
+        <div class="container">
+            <div class="portfolio__heading section--heading">
+                <h2 class="portfolio__title section--title title--bg-light">My portfolio</h2>
+                <p class="portfolios__subtitle section--subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit,seddo,eiusmod tempor incididunt ut labore et dolore magnaaliqua.</p>
+            </div>
+            <div class="portfolio__items">
+                <div class="portfolio__control">
+                    <ul class="control__list">
+                        <li class="control__list--item active">All</li>
+                        <li class="control__list--item">Dvelopment</li>
+                        <li class="control__list--item">Design</li>
+                        <li class="control__list--item">Html</li>
+                        <li class="control__list--item">Java</li>
+                    </ul>
+                </div>
+                <div class="portfolio__single--row row--top">
+                    <div class="portfolio__single">
+                        <img class="portfolio__single--img" src="img/portfolio-1.png" alt="Portfolio">
+                        <div class="portfolio__single--data">
+                            <i class="portfolio__icon fa fa-search-location"></i>
+                            <div class="portfolio__single--text">
+                                <h3 class="portfolio__title">Logo design</h3>
+                                <span class="portfolio__subtitle">Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__single">
+                        <img class="portfolio__single--img" src="img/portfolio-2.png" alt="Portfolio">
+                        <div class="portfolio__single--data">
+                            <i class="portfolio__icon fa fa-search-location"></i>
+                            <div class="portfolio__single--text">
+                                <h3 class="portfolio__title">Website design</h3>
+                                <span class="portfolio__subtitle">Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__single">
+                        <img class="portfolio__single--img" src="img/portfolio-3.png" alt="Portfolio">
+                        <div class="portfolio__single--data">
+                            <i class="portfolio__icon fa fa-search-location"></i>
+                            <div class="portfolio__single--text">
+                                <h3 class="portfolio__title">Logo design</h3>
+                                <span class="portfolio__subtitle">Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__single--row">
+                    <div class="portfolio__single">
+                        <img class="portfolio__single--img" src="img/portfolio-4.png" alt="Portfolio">
+                        <div class="portfolio__single--data">
+                            <i class="portfolio__icon fa fa-search-location"></i>
+                            <div class="portfolio__single--text">
+                                <h3 class="portfolio__title">Photography</h3>
+                                <span class="portfolio__subtitle">Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__single">
+                        <img class="portfolio__single--img" src="img/portfolio-5.png" alt="Portfolio">
+                        <div class="portfolio__single--data">
+                            <i class="portfolio__icon fa fa-search-location"></i>
+                            <div class="portfolio__single--text">
+                                <h3 class="portfolio__title">Website design</h3>
+                                <span class="portfolio__subtitle">Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__single">
+                        <img class="portfolio__single--img" src="img/portfolio-6.png" alt="Portfolio">
+                        <div class="portfolio__single--data">
+                            <i class="portfolio__icon fa fa-search-location"></i>
+                            <div class="portfolio__single--text">
+                                <h3 class="portfolio__title">Logo design</h3>
+                                <span class="portfolio__subtitle">Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- End Portfolio -->
 </body>
 
 </html>
