@@ -3,9 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
 /* General Resets */
 
-*,
-*:after,
-*:before {
+*, *:after, *:before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,14 +20,7 @@ body {
   width: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a {
+h1, h2, h3, h4, h5, h6, p, a {
   margin: 0;
   padding: 0;
 }
@@ -41,8 +32,7 @@ p {
   line-height: 2.4rem;
 }
 
-ul,
-li {
+ul, li {
   list-style-type: none;
 }
 
@@ -105,16 +95,15 @@ a {
   height: 0.2rem;
 }
 
-.title--bg-light:after,
-.title--bg-light:before {
+.title--bg-light:after, .title--bg-light:before {
   background-color: #7f56fd;
 }
 
 .title--bg-dark {
   color: #fff;
 }
-.title--bg-dark:after,
-.title--bg-dark:before {
+
+.title--bg-dark:after, .title--bg-dark:before {
   background-color: #fff;
 }
 
@@ -131,12 +120,12 @@ a {
 .m-b-small {
   margin-bottom: 1.5rem;
 }
+
 /* Start Header */
 
 .header {
   height: 95vh;
-  background: linear-gradient(to right, rgba(127, 86, 253, 0.9), rgba(120, 88, 221, 0.7)),
-    url("../img/header-background.png");
+  background: linear-gradient(to right, rgba(127, 86, 253, 0.9), rgba(120, 88, 221, 0.7)), url("../img/header-background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -253,11 +242,13 @@ a {
   display: table;
   clear: both;
 }
+
 .about__pos--data {
   width: 40%;
   float: left;
   padding: 2rem 0;
 }
+
 .about__pos--data:not(:last-child) {
   margin-right: 2rem;
 }
@@ -265,18 +256,21 @@ a {
 .pos--data {
   font-weight: 400;
 }
+
 .about__cta--btn {
   padding: 1.5rem 5rem;
 }
+
 .about__cta--btn:not(:last-child) {
   margin-right: 3rem;
 }
+
 /* End About */
 
 /* Start Skills */
+
 .skills {
-  background: linear-gradient(to right, rgba(127, 86, 253, 0.9), rgba(120, 88, 221, 0.7)),
-    url("../img/skill-background.png");
+  background: linear-gradient(to right, rgba(127, 86, 253, 0.9), rgba(120, 88, 221, 0.7)), url("../img/skill-background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -329,12 +323,15 @@ a {
 .progress--blue {
   background-color: #7fb7fa;
 }
+
 .progress--orange {
   background-color: #ffac1b;
 }
+
 .progress--purple {
   background-color: #c99aff;
 }
+
 /* End Skills */
 
 /* Start Skills */
@@ -368,6 +365,7 @@ a {
   font-size: 1.4rem;
   font-weight: 500;
 }
+
 /* End Service */
 
 .portfolio__control {
@@ -411,6 +409,7 @@ a {
 .row--top {
   margin-bottom: 3rem;
 }
+
 .portfolio__single {
   background-color: #eee;
   width: calc(95% / 3);
@@ -440,6 +439,7 @@ a {
   border-radius: 1rem;
   transition: all 0.2s;
 }
+
 .portfolio__icon {
   position: absolute;
   top: 50%;
@@ -467,4 +467,72 @@ a {
 
 .portfolio__single:hover .portfolio__single--data {
   opacity: 1;
+}
+
+/* END Portfolio */
+
+/* Start Testiomonials */
+
+.testimonials {
+  background: linear-gradient(to right, rgba(127, 86, 253, 0.9), rgba(120, 88, 221, 0.7)), url("../img/slider-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.testi__content {
+  text-align: center;
+  color: #fff;
+  padding: 2rem 3rem;
+}
+
+.testi__avatar {
+  width: 15%;
+  margin: 0 auto;
+}
+
+.testi__avatar--img {
+  display: block;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.testi__content--title {
+  margin: 2rem 0;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.testi__content--subtitle {
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.testi__content--desc {
+  color: #fff;
+}
+
+.testi__content-list {
+  margin: 2rem 0;
+}
+
+.testi__content-list--item {
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+.testi__control-list--item {
+  display: inline-block;
+  width: 3rem;
+  height: .5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  border-width: .1rem;
+  border-style: solid;
+  border-color: #fff;
+}
+
+.testi__control-list--item.active {
+  background-color: #fff;
+  border-color: transparent;
 }
