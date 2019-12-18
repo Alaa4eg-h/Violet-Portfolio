@@ -673,4 +673,60 @@ a {
   text-align: center;
 }
 
+.brands__items:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.brands__single {
+  padding: 3rem;
+  width: calc(100% / 5);
+  float: left;
+}
+
 /* End Brands */
+
+/* Start blog */
+
+.blog__items {
+  padding: 3rem 0;
+}
+
+.blog__card {
+  width: calc(100% / 3);
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.3);
+  border-radius: .5rem;
+}
+
+.blog__card__photo {
+  display: block;
+  max-width: 100%;
+}
+
+.blog__card__body {
+  text-align: center;
+  padding: 3rem;
+}
+
+.blog__card__date {
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.blog__card__comment {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+}
+
+.blog__card__title {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.blog__body__desc {
+  text-transform: 1.6rem;
+  line-height: 1.8;
+  font-weight: 400;
+}
